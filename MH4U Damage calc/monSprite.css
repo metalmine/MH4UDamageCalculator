@@ -1,0 +1,70 @@
+#00{background:url(Assets/monsters/monSprite.png) -6px -5px;}/*Akantor*/
+#01{background:url(Assets/monsters/monSprite.png) -63px -5px;}/*Ruby Basarios*/
+#02{background:url(Assets/monsters/monSprite.png) -119px -5px;}/*Brachidios*/
+#03{background:url(Assets/monsters/monSprite.png) -175px -5px;}/*Raging Brachidios*/
+#04{background:url(Assets/monsters/monSprite.png) -230px -5px;}/*Cephadrome*/
+#05{background:url(Assets/monsters/monSprite.png) -287px -5px;}/*Congalala*/
+#10{background:url(Assets/monsters/monSprite.png) -6px -56px;}/*Basarios*/
+#11{background:url(Assets/monsters/monSprite.png) -63px -56px;}/*Daimyo Hermitaur*/
+#12{background:url(Assets/monsters/monSprite.png) -119px -56px;}/*Plum D.Hermitaur*/
+#13{background:url(Assets/monsters/monSprite.png) -175px -56px;}/*Diablos*/
+#14{background:url(Assets/monsters/monSprite.png) -230px -56px;}/*Black Diablos*/
+#15{background:url(Assets/monsters/monSprite.png) -287px -56px;}/*Emerald Congalala*/
+#20{background:url(Assets/monsters/monSprite.png) -6px -107px;}/*Deviljho*/
+#21{background:url(Assets/monsters/monSprite.png) -63px -107px;}/*Savage Deviljho*/
+#22{background:url(Assets/monsters/monSprite.png) -119px -107px;}/*Gendrome*/
+#23{background:url(Assets/monsters/monSprite.png) -175px -107px;}/*Gore Magala*/
+#24{background:url(Assets/monsters/monSprite.png) -230px -107px;}/*Chaotic Gore Magala*/
+#25{background:url(Assets/monsters/monSprite.png) -287px -107px;}/*Shagaru Magala*/
+#30{background:url(Assets/monsters/monSprite.png) -6px -158px;}/*Gravios*/
+#31{background:url(Assets/monsters/monSprite.png) -63px -158px;}/*Black Gravios*/
+#32{background:url(Assets/monsters/monSprite.png) -119px -158px;}/*Great Jaggi*/
+#33{background:url(Assets/monsters/monSprite.png) -175px -158px;}/*Gypceros*/
+#34{background:url(Assets/monsters/monSprite.png) -230px -158px;}/*Purple Gypcyros*/
+#35{background:url(Assets/monsters/monSprite.png) -287px -158px;}/*Iodrome*/
+#40{background:url(Assets/monsters/monSprite.png) -6px -209px;}/*Kecha Wacha*/
+#41{background:url(Assets/monsters/monSprite.png) -63px -209px;}/*Ash Kecha Wacha*/
+#42{background:url(Assets/monsters/monSprite.png) -119px -209px;}/*Khezu*/
+#43{background:url(Assets/monsters/monSprite.png) -175px -209px;}/*Red Khezu*/
+#44{background:url(Assets/monsters/monSprite.png) -230px -209px;}/*Tidal Najarala*/
+#45{background:url(Assets/monsters/monSprite.png) -287px -209px;}/*Najarala*/
+#50{background:url(Assets/monsters/monSprite.png) -6px -260px;}/*White Monoblos*/
+#51{background:url(Assets/monsters/monSprite.png) -63px -260px;}/*Monoblos*/
+#52{background:url(Assets/monsters/monSprite.png) -119px -260px;}/*Nerscylla*/
+#53{background:url(Assets/monsters/monSprite.png) -175px -260px;}/*Shrouded Nerscylla*/
+#54{background:url(Assets/monsters/monSprite.png) -230px -260px;}/*Rajang*/
+#55{background:url(Assets/monsters/monSprite.png) -287px -260px;}/*Furious Rajang*/
+#60{background:url(Assets/monsters/monSprite.png) -6px -311px;}/*Rathalos*/
+#61{background:url(Assets/monsters/monSprite.png) -63px -311px;}/*Azure Rathalos*/
+#62{background:url(Assets/monsters/monSprite.png) -119px -311px;}/*Silver Rathalos*/
+#63{background:url(Assets/monsters/monSprite.png) -175px -311px;}/*Rathian*/
+#64{background:url(Assets/monsters/monSprite.png) -230px -311px;}/*Pink Rathian*/
+#65{background:url(Assets/monsters/monSprite.png) -287px -311px;}/*Gold Rathian*/
+#70{background:url(Assets/monsters/monSprite.png) -6px -362px;}/*Seltas*/
+#71{background:url(Assets/monsters/monSprite.png) -63px -362px;}/*Desert Seltas*/
+#72{background:url(Assets/monsters/monSprite.png) -119px -362px;}/*Seltas Queen*/
+#73{background:url(Assets/monsters/monSprite.png) -175px -362px;}/*Desert Seltas Queen*/
+#74{background:url(Assets/monsters/monSprite.png) -230px -362px;}/*Tetsucabra*/
+#75{background:url(Assets/monsters/monSprite.png) -287px -362px;}/*Berserk Tetsucabra*/
+#80{background:url(Assets/monsters/monSprite.png) -6px -413px;}/*Tigrex*/
+#81{background:url(Assets/monsters/monSprite.png) -63px -413px;}/*Brute Tigrex*/
+#82{background:url(Assets/monsters/monSprite.png) -119px -413px;}/*Molten Tigrex*/
+#83{background:url(Assets/monsters/monSprite.png) -175px -413px;}/*Ukanlos*/
+#84{background:url(Assets/monsters/monSprite.png) -230px -413px;}/*Velocidrome*/
+#85{background:url(Assets/monsters/monSprite.png) -287px -413px;}/*Yian Garuga*/
+#90{background:url(Assets/monsters/monSprite.png) -6px -464px;}/*Yian Kutku*/
+#91{background:url(Assets/monsters/monSprite.png) -63px -464px;}/*Blue Yian Kutku*/
+#92{background:url(Assets/monsters/monSprite.png) -119px -464px;}/*Dalamadur*/
+#94{background:url(Assets/monsters/monSprite.png) -175px -464px;}/*Shah Dalamadur*/
+#a0{background:url(Assets/monsters/monSprite.png) -6px -515px;}/*Zamtrios*/
+#a1{background:url(Assets/monsters/monSprite.png) -63px -515px;}/*Tigerstripe Zamtrios*/
+#a2{background:url(Assets/monsters/monSprite.png) -119px -515px;}/*Zinogre*/
+#a3{background:url(Assets/monsters/monSprite.png) -175px -515px;}/*Stygian Zinogre*/
+#a4{background:url(Assets/monsters/monSprite.png) -230px -515px;}/*Chameleos*/
+#a5{background:url(Assets/monsters/monSprite.png) -287px -515px;}/*Dah'ren Mohran*/
+#b0{background:url(Assets/monsters/monSprite.png) -6px -566px;}/*Kushala Daora*/
+#b1{background:url(Assets/monsters/monSprite.png) -63px -566px;}/*Rusted Kushala Daora*/
+#b2{background:url(Assets/monsters/monSprite.png) -119px -566px;}/*Kirin*/
+#b3{background:url(Assets/monsters/monSprite.png) -175px -566px;}/*Oroshi Kirin*/
+#b4{background:url(Assets/monsters/monSprite.png) -230px -566px;}/*Teostra*/
+#b5{background:url(Assets/monsters/monSprite.png) -287px -566px;}/*Lagombi*/

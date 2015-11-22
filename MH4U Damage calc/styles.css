@@ -1,0 +1,152 @@
+body{
+	background:url(Assets/monsters/09.png) no-repeat;
+	background-color:rgba(146,115,112,1);
+	color: #ffffff;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+	font-family:"Verdana",verdana,sans;
+	font-size:1em;
+	height: auto;
+}
+.container{	position:relative;
+	width:780px;
+	margin-left:auto;
+	margin-right:auto;}
+.ds{background:url(Assets/bgimg/bg3.png) repeat;
+	width:780px;
+	position:center;
+	height:auto;
+	border-radius:10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);}
+.topScreen{
+	z-index:1;
+	background:url(Assets/bgimg/bg2.png) center repeat;
+	margin-left:133px;
+	margin-top:65px;
+	width:515px;
+	height:310px;
+	position:absolute;
+	text-align:center;
+	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+.topPop{
+	margin-top:30px;
+	background-color:#9E3333;
+	display:block;
+	width:70%;
+	z-index:2;
+	height:40%;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.6);
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	text-align:left;
+	padding-left:10px;
+	padding-top:7px;
+}
+.bottomScreen{background-color:#E0DFD3;
+	display:block;
+	z-index:1;
+	opacity:1;
+	margin-left:184px;
+	margin-top: 467px;
+	position:absolute;
+	width: 413px;
+	height:309px;
+	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);}
+.selectionPop{margin-top:0px;
+	background-color:white;
+	display:block;
+	width:70%;
+	z-index:2;
+	height: 160;
+	box-shadow: 0px 3px 6px #000000;
+	border-radius:5px;
+	margin-left:auto;
+	margin-right:auto;}
+.row{
+	display:block;
+	z-index:3;
+	position:relative;
+	width:95%;
+	height:42px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	text-align:center;
+}
+
+.pressA{
+	text-shadow: 1px 1px 3px grey;
+	text-align:center;
+	font-weight:bold;
+	color: #9E3333;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select:none;
+}
+.weaponCell{background-color:#9E3333 !important;
+	border-width:1px;
+	border-color:grey;
+	border-style:solid;
+	display:inline-block;
+	z-index:4;
+	opacity:1;
+	margin:5px;
+	margin-right:10px;
+	width:24px;
+	height:24px;
+	border-radius:4px;
+	cursor: pointer;
+	cursor: hand;}
+.weaponIcon{background-color:#9E3333 !important;
+	display:inline-block;
+	z-index:4;
+	opacity:1;
+	margin:30px;
+	margin-right:10px;
+	width:24px;
+	height:24px;
+	border-width:7px;
+	border-color:#9E3333;
+	border-style:solid;
+	border-radius:9px;
+	cursor: pointer;
+	cursor: hand;
+	position:absolute;
+}
+.buffIcon{
+	background-color:#9E3333 !important;
+	display:inline-block;
+	z-index:4;
+	opacity:1;
+	margin:30px;
+	margin-right:10px;
+	width:24px;
+	height:24px;
+	border-width:7px;
+	border-color:#9E3333;
+	border-style:solid;
+	border-radius:9px;
+	cursor: pointer;
+	cursor: hand;
+	position:absolute;
+}
+.monsterIcon{
+	display:inline-block;
+	z-index:4;
+	opacity:1;
+	margin:30px;
+	margin-right:10px;
+	width:50px;
+	height:46px;
+	border-width:2px;
+	border-color:#9E3333;
+	border-style:solid;
+	border-radius:9px;
+	cursor: pointer;
+	cursor: hand;
+	position:absolute;
+}
