@@ -1,10 +1,10 @@
 $(document).ready(function(){
-//at start of document
+/*at start of document
 	$("div.selectionPop").hide();
 	$("div.pressA").hide();
 	$(".weaponIcon").hide();
 	$(".monsterIcon").hide();
-	$(".buffIcon").hide();
+	$(".buffIcon").hide();*/
 //Within Weapon and Armor Skill Selection
 	$(".weaponCell").click( function(){
 		$("div.selectionPop").hide("slide",500);
