@@ -22,7 +22,8 @@ body{
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select:none;
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);}
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+}
 .topScreen{
 	z-index:1;
 	background:url(Assets/bgimg/bg2.png) center repeat;
@@ -58,7 +59,8 @@ body{
 	position:absolute;
 	width: 413px;
 	height:309px;
-	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);}
+	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
 .selectionPop{margin-top:40px;
 	position:absolute;
 	background-color:white;
@@ -69,7 +71,8 @@ body{
 	box-shadow: 0px 3px 6px #000000;
 	vertical-align:center;
 	border-radius:5px;
-	margin-left:40px;}
+	margin-left:40px;
+}
 .row{
 	display:block;
 	z-index:3;
@@ -110,13 +113,13 @@ body{
 	height:24px;
 	border-radius:4px;
 	cursor: pointer;
-	cursor: hand;}
+	cursor: hand;
+}
 .weaponIcon{background-color:#9E3333 !important;
 	display:inline-block;
 	z-index:4;
 	opacity:1;
-	margin-left:auto;
-	margin-right:auto;
+	margin-top:6px;
 	width:24px;
 	height:24px;
 	cursor: pointer;
@@ -142,6 +145,7 @@ body{
 	opacity:1;
 	width:24px;
 	height:24px;
+	margin-top:6px;
 	border-width:7px;
 	border-color:#9E3333;
 	border-style:solid;
@@ -154,6 +158,7 @@ body{
 	vertical-align:center;
 	position:relative;
 	width:33%;
+	margin-top:10px;
 	margin-left:auto;
 	margin-right:auto;
 	float:left;
@@ -171,9 +176,16 @@ body{
 	border-radius:9px;
 	cursor: pointer;
 	cursor: hand;
-	position:absolute;
 }
 .monsterPick{
+	display:inline-block;
+	z-index:4;
+	opacity:1;
+	margin:30px;
+	width:120px;
+	margin:10px;
+}
+.rankPick{
 	display:inline-block;
 	z-index:4;
 	opacity:1;
@@ -199,10 +211,13 @@ body{
 	position:absolute;
 	bottom:0;
 }
-.inPop{
+.inPop{/*objects within popups*/
 	display:inline-block;
-	margin-left:auto;
-	margin-right:auto;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+	margin-left:10px;
+	margin-top:10px;
 }
-#buff{background:url(Assets/bgimg/buff.png) no-repeat;
-		background-color:#9E3333;}
+#buff{
+	background:url(Assets/bgimg/buff.png) no-repeat;
+	background-color:#9E3333;
+	}
