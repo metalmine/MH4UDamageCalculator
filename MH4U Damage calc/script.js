@@ -14,7 +14,7 @@ $("div.selectionPop").hide();
 	$(".weaponIcon").click( function(){
 		if( !disableBackground ){
 			$("div.wepPop").show("slide",500);
-			$("div.pressA").show("slide",500);
+			$("div.pressA").show("slide",300);
 			$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
 			
 			disableBackground = true;
@@ -28,7 +28,7 @@ $("div.selectionPop").hide();
 	$(".monsterIcon").click( function(){
 		if( !disableBackground ){
 			$("div.monPop").show("slide",500);
-			$("div.pressA").show("slide",500);
+			$("div.pressA").show("slide",300);
 			$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
 			
 			disableBackground = true;
@@ -42,7 +42,7 @@ $("div.selectionPop").hide();
 		$("div.monPop").hide("slide",500);
 		$("div.buffPop").hide("slide",500);
 		$("div.monPop").hide("slide",500);
-		$("div.pressA").hide("slide",500);
+		$("div.pressA").hide("slide",2000);
 		$("div.weaponIcon").addClass("onSelect").removeClass("onDeselect");
 		
 		disableBackground = false;
