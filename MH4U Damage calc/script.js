@@ -7,20 +7,31 @@ $("div.selectionPop").hide();
 	$(".buffIcon").hide(); */
 //Within Weapon and Armor Skill Selection
 	$(".weaponCell").click( function(){
-		$("div.selectionPop").hide("slide",500);
-		$("div.pressA").hide("slide",500);
 		$(".weaponIcon").attr("id", $(this).attr('id'));
-		$("div.weaponIcon").removeclass("onSelect").addclass("onDeselect");
 	});
 	$(".weaponIcon").click( function(){
-		$("div.selectionPop").show("slide",500);
+		$("div.wepPop").show("slide",500);
 		$("div.pressA").show("slide",500);
-		$("div.weaponIcon").addclass("onSelect").removeclass("onDeselect");
+		$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
 	});
 	
 //Within Buff Selection
 
 
 //Within Monster Selection
+	$(".monsterIcon").click( function(){
+		$("div.monPop").show("slide",500);
+		$("div.pressA").show("slide",500);
+		$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
+	});
 	
+//Done button
+	$(".buttonDone").click( function(){
+		$("div.wepPop").hide("slide",500);
+		$("div.monPop").hide("slide",500);
+		$("div.buffPop").hide("slide",500);
+		$("div.monPop").hide("slide",500);
+		$("div.pressA").hide("slide",500);
+		$("div.weaponIcon").addClass("onSelect").removeClass("onDeselect");
+	});
 });
