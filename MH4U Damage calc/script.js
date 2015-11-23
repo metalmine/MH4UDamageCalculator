@@ -1,15 +1,24 @@
+//Tracks if the background buttons should be disabled
+var disableBackground = false;
+
 $(document).ready(function(){
 //at start of document
 $("div.selectionPop").hide();
-/* 	$("div.pressA").hide();
+/* 	$("div.pressA").hide(); */
 //Within Weapon and Armor Skill Selection
+	
 	$(".weaponCell").click( function(){
 		$(".weaponIcon").attr("id", $(this).attr('id'));
 	});
+	
 	$(".weaponIcon").click( function(){
-		$("div.wepPop").show("slide",500);
-		$("div.pressA").show("slide",500);
-		$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
+		if( !disableBackground ){
+			$("div.wepPop").show("slide",500);
+			$("div.pressA").show("slide",500);
+			$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
+			
+			disableBackground = true;
+		}
 	});
 	
 //Within Buff Selection
@@ -17,9 +26,14 @@ $("div.selectionPop").hide();
 
 //Within Monster Selection
 	$(".monsterIcon").click( function(){
-		$("div.monPop").show("slide",500);
-		$("div.pressA").show("slide",500);
-		$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
+		if( !disableBackground ){
+			$("div.monPop").show("slide",500);
+			$("div.pressA").show("slide",500);
+			$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
+			
+			disableBackground = true;
+		}
+
 	});
 	
 //Done button
@@ -30,5 +44,7 @@ $("div.selectionPop").hide();
 		$("div.monPop").hide("slide",500);
 		$("div.pressA").hide("slide",500);
 		$("div.weaponIcon").addClass("onSelect").removeClass("onDeselect");
+		
+		disableBackground = false;
 	});
 });

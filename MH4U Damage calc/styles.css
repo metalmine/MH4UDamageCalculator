@@ -53,7 +53,7 @@ body{
 	width: 413px;
 	height:309px;
 	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);}
-.selectionPop{margin-top:0px;
+.selectionPop{margin-top:40px;
 	position:absolute;
 	background-color:white;
 	display:block;
@@ -74,9 +74,12 @@ body{
 	padding-right:5px;
 	padding-top:5px;
 	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .pressA{
+	clear:left;
 	text-shadow: 1px 1px 3px grey;
 	text-align:center;
 	font-weight:bold;
@@ -106,8 +109,8 @@ body{
 	display:inline-block;
 	z-index:4;
 	opacity:1;
-	margin:30px;
-	margin-right:10px;
+	margin-left:auto;
+	margin-right:auto;
 	width:24px;
 	height:24px;
 	cursor: pointer;
@@ -143,6 +146,14 @@ body{
 	cursor: hand;
 	position:absolute;
 }
+.block{
+	vertical-align:center;
+	position:relative;
+	width:33%;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
 .monsterIcon{
 	display:inline-block;
 	z-index:4;
@@ -157,7 +168,6 @@ body{
 	cursor: pointer;
 	cursor: hand;
 	position:absolute;
-	float:left;
 }
 .monsterPick{
 	display:inline-block;
@@ -185,3 +195,5 @@ body{
 	position:absolute;
 	bottom:0;
 }
+#buff{background:url(Assets/bgimg/buff.png) no-repeat;
+		background-color:#9E3333;}
