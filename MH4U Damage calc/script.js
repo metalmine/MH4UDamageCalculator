@@ -2,9 +2,6 @@ $(document).ready(function(){
 //at start of document
 $("div.selectionPop").hide();
 /* 	$("div.pressA").hide();
-	$(".weaponIcon").hide();
-	$(".monsterIcon").hide();
-	$(".buffIcon").hide(); */
 //Within Weapon and Armor Skill Selection
 	$(".weaponCell").click( function(){
 		$(".weaponIcon").attr("id", $(this).attr('id'));
