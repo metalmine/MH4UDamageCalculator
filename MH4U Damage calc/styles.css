@@ -16,6 +16,12 @@ body{
 	position:center;
 	height:auto;
 	border-radius:10px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select:none;
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);}
 .topScreen{
 	z-index:1;
@@ -134,8 +140,6 @@ body{
 	display:inline-block;
 	z-index:4;
 	opacity:1;
-	margin:30px;
-	margin-right:10px;
 	width:24px;
 	height:24px;
 	border-width:7px;
@@ -153,12 +157,12 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	float:left;
+	display:inline;
 }
 .monsterIcon{
 	display:inline-block;
 	z-index:4;
 	opacity:1;
-	margin:30px;
 	width:50px;
 	height:46px;
 	border-width:2px;
@@ -194,6 +198,11 @@ body{
 	cursor: hand;
 	position:absolute;
 	bottom:0;
+}
+.inPop{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
 }
 #buff{background:url(Assets/bgimg/buff.png) no-repeat;
 		background-color:#9E3333;}
