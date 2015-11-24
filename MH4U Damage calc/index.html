@@ -5,9 +5,19 @@
 <link rel="stylesheet" type="css" href="wepSprite.css">
 <link rel="stylesheet" type="css" href="monSprite.css">
 <link rel="stylesheet" type="css" href="hover.css" media="all">
-<link rel="javascript" type="js" href="script.js">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+<!-- Load all relavent data scripts -->
+
+<!-- Weapon Data -->
+<script type="text/javascript" src="data/weapon_type.js"></script>
+<script type="text/javascript" src="data/weapon_list.js"></script>
+
+<!-- Monster Data -->
+<script type="text/javascript" src="data/monster_list.js"></script>
+<script type="text/javascript" src="data/monsterSelectList.js"></script>
+
 </head>
 <body>
 	<div class="bg">
@@ -18,6 +28,8 @@
 					Most Effective Element:
 				</div>
 			</div>
+			
+			
 			<div class="bottomScreen">
 				<div class="row">
 					<div class="block"><div id="gs" class="weaponIcon hvr-outline-in onSelect"></div></div>
@@ -43,13 +55,22 @@
 					<div class="row pressA">
 						Pick a Weapon
 					</div>
+					<div class="wepPick">
+						<select>
+							<option value="example">example</option>
+						</select>
+					</div>
 					<div class="buttonDone">
-					DONE
+						DONE
 					</div>
 				</div>
+				
+				
 				<div class="selectionPop buffPop">
 					
 				</div>
+				
+				
 				<div class="selectionPop monPop">
 					<div id="m00" class="monsterIcon inPop"></div>
 					<div class="monsterPick">
