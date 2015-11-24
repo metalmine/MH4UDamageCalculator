@@ -93,6 +93,7 @@ body{
 	text-align:center;
 	font-weight:bold;
 	color: #9E3333;
+	margin-top:0px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -115,6 +116,7 @@ body{
 	cursor: pointer;
 	cursor: hand;
 }
+
 .weaponIcon{background-color:#9E3333 !important;
 	background-color:#9E3333;
 	display:inline-block;
@@ -179,16 +181,14 @@ body{
 	border-color:#9E3333;
 	border-style:solid;
 	border-radius:9px;
-	cursor: pointer;
-	cursor: hand;
 }
 .monsterPick{
 	display:inline-block;
 	z-index:4;
 	opacity:1;
-	margin:30px;
 	width:120px;
-	margin:10px;
+	margin-top:0px;
+	margin-left:40px;
 }
 .rankPick{
 	display:inline-block;
@@ -196,7 +196,8 @@ body{
 	opacity:1;
 	margin:30px;
 	width:120px;
-	margin:10px;
+	margin-left:150px;
+	margin-top:0px;
 }
 .buttonDone{
 	padding-top:6px;
@@ -221,6 +222,10 @@ body{
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 	margin-left:10px;
 	margin-top:10px;
+}
+.outPop{
+	cursor: pointer;
+	cursor: hand;
 }
 #buff{
 	background:url(Assets/bgimg/buff.png) no-repeat;

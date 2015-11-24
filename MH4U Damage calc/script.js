@@ -54,7 +54,7 @@ $(document).ready(function(){
 		if( !disableBackground ){
 			$("div.monPop").show("slide",500);
 			$("div.pressA").show("slide",300);
-			$("div.weaponIcon").removeClass("onSelect").addClass("onDeselect");
+			$("div.monsterIcon").removeClass("onSelect").addClass("onDeselect");
 			
 			disableBackground = true;
 		}
@@ -69,6 +69,7 @@ $(document).ready(function(){
 		$("div.monPop").hide("slide",500);
 		$("div.pressA").hide("slide",2000);
 		$("div.weaponIcon").addClass("onSelect").removeClass("onDeselect");
+		$("div.monsterIcon").addClass("onSelect").removeClass("onDeselect");
 		
 		disableBackground = false;
 	});
