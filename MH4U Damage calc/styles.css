@@ -88,12 +88,13 @@ body{
 }
 
 .pressA{
+	display:inline-block;
+	position:absolute;
 	clear:left;
 	text-shadow: 1px 1px 3px grey;
 	text-align:center;
 	font-weight:bold;
 	color: #9E3333;
-	margin-top:0px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -164,6 +165,9 @@ body{
 .wepPick{
 		margin-left:50px;
 }
+.armskillPick{
+	
+}
 .block{
 	vertical-align:center;
 	position:relative;
@@ -203,10 +207,13 @@ body{
 	margin-top:0px;
 }
 .leftButton{
-	
+	position:absolute;
+	display:inline-block;
+	margin-top:;
 }
 .rightButton{
-	
+	position:absolute;
+	display:inline-block;
 }
 .buttonDone{
 	padding-top:6px;
