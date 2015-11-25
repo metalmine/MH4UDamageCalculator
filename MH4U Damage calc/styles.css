@@ -61,6 +61,26 @@ body{
 	height:309px;
 	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
 }
+.calculate{
+	color:red;
+	z-index:5;
+	font-size:1.3em;
+	position:absolute;
+	margin-left:729px;
+	margin-top:555px;
+	cursor: pointer;
+	cursor: hand;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select:none;
+}
+.armskillPick{
+	font-size:0.8em;
+	text-align:left;
+}
 .aboutUsPop{
 	margin-top:40px;
 	position:absolute;
