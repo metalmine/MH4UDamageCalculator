@@ -162,7 +162,6 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 }
-
 .pressA{
 	display:inline-block;
 	position:absolute;
@@ -171,6 +170,8 @@ body{
 	text-align:center;
 	font-weight:bold;
 	color: #9E3333;
+	margin-left:25px;
+	margin-top:10px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -241,9 +242,6 @@ body{
 .wepPick{
 		margin-left:50px;
 }
-.armskillPick{
-	
-}
 .block{
 	vertical-align:center;
 	position:relative;
@@ -267,7 +265,7 @@ body{
 }
 .monsterPick{
 	display:inline-block;
-	z-index:4;
+	z-index:6;
 	opacity:1;
 	width:120px;
 	margin-top:0px;
