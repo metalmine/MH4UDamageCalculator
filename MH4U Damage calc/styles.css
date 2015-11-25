@@ -77,6 +77,45 @@ body{
 	-ms-user-select: none;
 	user-select:none;
 }
+.aboutUsLink{
+	color:white;
+	z-index:5;
+	font-size:1.1em;
+	position:absolute;
+	margin-left:669px;
+	margin-top:730px;
+	cursor: pointer;
+	cursor: hand;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select:none;
+	text-shadow: 2px 2px 4px black;
+	text-align:center;
+}
+.whiteLink{
+	color:white;
+}
+.wepGuideLink{
+	color:white;
+	z-index:5;
+	font-size:1.1em;
+	position:absolute;
+	margin-left:669px;
+	margin-top:680px;
+	cursor: pointer;
+	cursor: hand;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select:none;
+	text-shadow: 2px 2px 4px black;
+	text-align:center;
+}
 .armskillPick{
 	font-size:0.8em;
 	text-align:left;
