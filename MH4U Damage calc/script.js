@@ -103,6 +103,15 @@ $(document).ready(function(){
 	});
 	
 	//Within Buff Selection
+	$(".buffIcon").click( function() {
+		if( !disableBackground ){
+			$("div.buffPop").show( "slide", 500 );
+			$("div.pressA").show("slide",300);
+			$("div.buffIconIcon").removeClass("onSelect").addClass("onDeselect");
+			
+			disableBackground = true;
+		}
+	});
 
 
 	//Within Monster Selection
