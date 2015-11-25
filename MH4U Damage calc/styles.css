@@ -61,7 +61,24 @@ body{
 	height:309px;
 	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
 }
-.selectionPop{margin-top:40px;
+.aboutUsPop{
+	margin-top:40px;
+	position:absolute;
+	background-color:white;
+	display:block;
+	width:80%;
+	z-index:2;
+	height: 55%;
+	box-shadow: 0px 3px 6px #000000;
+	vertical-align:center;
+	border-radius:5px;
+	margin-left:40px;
+	color:#751414;
+	font-weight:bold;
+	text-align:center;
+}
+.selectionPop{
+	margin-top:40px;
 	position:absolute;
 	background-color:white;
 	display:block;
