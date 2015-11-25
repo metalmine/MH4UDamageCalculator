@@ -4,16 +4,19 @@ var disableBackground = false;
 //Tracks selected options
 var selectedMonsterID;
 var selectedWeaponID;
-var selectedRank = 1;
+var selectedRank = "low";
 
 $(document).ready(function(){
 	//at start of document
 	$("div.selectionPop").hide();
+	$("#attackValue").hide();
+	$("#eleValue").hide();
+	$("#elemPick").hide();
 	/* 	$("div.pressA").hide(); */
 	
 
 	//Populate Monster Selection
-	var htmlString = "<select id=\"monsterSelect\">\n<option value=\"\">Please Select a Monster</option>\n";
+	var htmlString = "<select id=\"monsterSelect\">\n<option value=\"\" selected=\"true\" disabled=\"disabled\">Please Select a Monster</option>\n";
 	for( var i = 0; i < monstersSelectionList.length; i++ ){
 		htmlString += "<option value=\"" + monstersSelectionList[i]["sort_name"] + "\">" + monstersSelectionList[i]["name"] + "</option>\n";
 	}
@@ -81,7 +84,7 @@ $(document).ready(function(){
 		var filteredWeapons = weaponList.filter( function( obj ){
 				return obj.class == weaponClass;
 			});
-		var htmlString = "<select id=\"wepSel\" onchange=\"setWeapon(this)\">\n<option value=\"\">Please Select a Weapon</option>\n";
+		var htmlString = "<select id=\"wepSel\" onchange=\"setWeapon(this)\">\n<option value=\"\" selected=\"true\" disabled=\"disabled\">Please Select a Weapon</option>\n";
 		for( var i = 0; i < filteredWeapons.length; i++ ){
 			htmlString += "<option value=\"" + filteredWeapons[i].id + "\">" + filteredWeapons[i].name + "</option>\n";
 		}
@@ -137,15 +140,108 @@ $(document).ready(function(){
 		
 		disableBackground = false;
 	});
+	
+	//Validate and Sent to Calculation
+	$(".calculate").click( function(){
+		
+		//Validate Sharpness
+		var sharpnessSelection = $("#sharpPick").val();
+		if( !sharpnessSelection ){
+			alert( "Sharpness hasn't been selected" );
+			return;
+		}
+		
+		//Validate Monster
+		if( !selectedMonsterID ){
+			alert( "Please select a monster!" );
+			return;
+		}
+		
+		//Validate Weapon
+		if( !selectedWeaponID ){
+			alert( "Please select a weapon!" );
+			return;
+		}
+		
+		//Constructed Relic Weapon, if applicable
+		var construct;
+		
+		//If a --Relic Weapon-- was picked
+		if( selectedWeaponID < 0 ){
+			//Test for input correctness
+			var attkValue = parseInt( $("#attackValue").val() );
+			if( isNaN( attkValue ) ){
+				alert( "Please enter a correct attack value" );
+				return;
+			}
+			
+			var eleValue = parseInt( $("#eleValue").val() );
+			if( isNaN( eleValue ) ){
+				alert( "Please enter a correct Elemental Value" );
+				return;
+			}
+			
+			var elemID = 1;
+			switch( $("#elemPick").val() ){
+				case "fire":
+					elemID = 1;
+					break;
+				case "water":
+					elemID = 2;
+					break;
+				case "thunder":
+					elemID = 3;
+					break;
+				case "ice":
+					elemID = 4;
+					break;
+				case "dragon":
+					elemID = 5;
+					break;
+			}
+			
+			construct = {
+				"affinity" : 0,
+				"attack" : attkValue,
+				"class" : Math.abs( selectedWeaponID ),
+				"elements" : [ {
+					"attack" : eleValue,
+					"id" : elemID
+				} ]
+			}
+		}
+		
+
+		
+		//alert( $("#rankSelect").val() );//Debug
+		//Send to calculate
+		var disp = calculate( false, selectedMonsterID, $("#rankSelect").val(), selectedWeaponID, $("#challenge").val(), $("#attackup").val(), $("#hunting").val(), $("#elem").val(), $("#weak").is(":checked"), sharpnessSelection, $("#sharp").is(":checked"), construct );
+		
+		$(".topPop").html( 
+			"Average Damage/hit: " + disp[0] + "</br>\n"
+			+ "Most Effective Hit: "  + disp[1] + "</br>\n"
+			+ "Monster will be killed in " + disp[2] + " hits"
+		);
+	});
 });
 
-
+//For some reason this particular function won't run from inside Document Ready, so it has to be manually called
 function setWeapon( value ){
 	
 	var val = value.value;
 	
-	if( !val || 0 === val.length || val < 0 ) return;
+	//Check for null input
+	if( !val || 0 === val.length ) return;
 	
 	selectedWeaponID = val;
 	
+	if( selectedWeaponID > 0 ){
+		$("#attackValue").hide();
+		$("#eleValue").hide();
+		$("#elemPick").hide();
+	} else {
+		$("#attackValue").show();
+		$("#eleValue").show();
+		$("#elemPick").show();
+	}
 }

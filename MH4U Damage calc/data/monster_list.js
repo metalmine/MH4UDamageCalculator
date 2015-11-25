@@ -212,6 +212,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 100,
+	  "hp" : 6400,
       "name" : "Chameleos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/chameleos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Chameleos"
@@ -469,6 +470,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 101,
+	  "hp" : 17600,
       "name" : "Dalamadur",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/dalamadur",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Dalamadur"
@@ -726,6 +728,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 102,
+	  "hp" : 17600,
       "name" : "Shah Dalamadur",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/shah-dalamadur",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Shah_Dalamadur"
@@ -1385,6 +1388,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 24,
+	  "hp" : 2000,
       "name" : "Seltas",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/seltas",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Seltas"
@@ -1449,6 +1453,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 25,
+	  "hp" : 2500,
       "name" : "Desert Seltas",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/desert-seltas",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Desert_Seltas"
@@ -1522,6 +1527,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 26,
+	  "hp" : 5200,
       "name" : "Seltas Queen",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/seltas-queen",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Seltas_Queen"
@@ -1631,6 +1637,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 27,
+	  "hp" : 5500,
       "name" : "Desert Seltas Queen",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/desert-seltas-queen",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Desert_Seltas_Queen"
@@ -1771,6 +1778,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 28,
+	  "hp" : 3900,
       "name" : "Nerscylla",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/nerscylla",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Nerscylla"
@@ -1920,6 +1928,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 29,
+	  "hp" : 3900,
       "name" : "Shrouded Nerscylla",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/shrouded-nerscylla",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Shrouded_Nerscylla"
@@ -2025,6 +2034,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 30,
+	  "hp" : 3600,
       "name" : "Cephadrome",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/cephadrome",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Cephadrome"
@@ -2056,6 +2066,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 31,
+	  "hp" : 2600,
       "name" : "Great Jaggi",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/great-jaggi",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Great_Jaggi"
@@ -2087,6 +2098,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 32,
+	  "hp" : 2000,
       "name" : "Velocidrome",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/velocidrome",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Velocidrome"
@@ -2118,6 +2130,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 33,
+	  "hp" : 2500,
       "name" : "Gendrome",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/gendrome",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Gendrome"
@@ -2149,6 +2162,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 34,
+	  "hp" : 3500,
       "name" : "Iodrome",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/iodrome",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Iodrome"
@@ -2235,6 +2249,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 35,
+	  "hp" : 3800,
       "name" : "Yian Kut-Ku",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/yian-kut-ku",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Yian_Kut-Ku"
@@ -2321,6 +2336,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 36,
+	  "hp" : 4000,
       "name" : "Blue Yian Kut-Ku",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/blue-yian-kut-ku",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Blue_Yian_Kut-Ku"
@@ -2407,6 +2423,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 37,
+	  "hp" : 3900,
       "name" : "Gypceros",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/gypceros",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Gypceros"
@@ -2493,6 +2510,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 38,
+	  "hp" : 3900,
       "name" : "Purple Gypceros",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/purple-gypceros",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Purple_Gypceros"
@@ -2579,6 +2597,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 39,
+	  "hp" : 4200,
       "name" : "Yian Garuga",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/yian-garuga",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Yian_Garuga"
@@ -2770,6 +2789,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 40,
+	  "hp" : 3300,
       "name" : "Daimyo Hermitaur",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/daimyo-hermitaur",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Daimyo_Hermitaur"
@@ -2927,6 +2947,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 41,
+	  "hp" : 3500,
       "name" : "Plum Daimyo Hermitaur",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/plum-d.hermitaur",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Plum_Daimyo_Hermitaur"
@@ -3009,6 +3030,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 42,
+	  "hp" : 3800,
       "name" : "Kecha Wacha",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/kecha-wacha",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Kecha_Wacha"
@@ -3118,6 +3140,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 43,
+	  "hp" : 3500,
       "name" : "Ash Kecha Wacha",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/ash-kecha-wacha",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Ash_Kecha_Wacha"
@@ -3182,6 +3205,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 44,
+	  "hp" : 3600,
       "name" : "Lagombi",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/lagombi",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Lagombi"
@@ -3291,6 +3315,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 45,
+	  "hp" : 4600,
       "name" : "Congalala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/congalala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Congalala"
@@ -3415,6 +3440,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 46,
+	  "hp" : 4100,
       "name" : "Emerald Congalala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/emerald-congalala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Emerald_Congalala"
@@ -3539,6 +3565,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 47,
+	  "hp" : 4500,
       "name" : "Rajang",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/rajang",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Rajang"
@@ -3787,6 +3814,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 49,
+	  "hp" : 4800,
       "name" : "Furious Rajang",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/furious-rajang",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Furious_Rajang"
@@ -3952,6 +3980,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 50,
+	  "hp" : 4000,
       "name" : "Tetsucabra",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/tetsucabra",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Tetsucabra"
@@ -4098,6 +4127,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 51,
+	  "hp" : 4200,
       "name" : "Berserk Tetsucabra",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/berserk-tetsucabra",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Berserk_Tetsucabra"
@@ -4266,6 +4296,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 52,
+	  "hp" : 5200,
       "name" : "Zamtrios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/zamtrios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Zamtrios"
@@ -4434,6 +4465,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 53,
+	  "hp" : 5000,
       "name" : "Tigerstripe Zamtrios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/tigerstripe-zamtrios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Tigerstripe_Zamtrios"
@@ -4602,6 +4634,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 54,
+	  "hp" : 4350,
       "name" : "Najarala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/najarala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Najarala"
@@ -4770,6 +4803,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 55,
+	  "hp" : 4850,
       "name" : "Tidal Najarala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/tidal-najarala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Tidal_Najarala"
@@ -5024,6 +5058,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 57,
+	  "hp" : 4600,
       "name" : "Brachydios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/brachydios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Brachydios"
@@ -5192,6 +5227,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 58,
+	  "hp" : 5500,
       "name" : "Raging Brachydios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/raging-brachydios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Raging_Brachydios"
@@ -5338,6 +5374,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 59,
+	  "hp" : 6600,
       "name" : "Deviljho",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/deviljho",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Deviljho"
@@ -5649,6 +5686,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 61,
+	  "hp" : 6000,
       "name" : "Savage Deviljho",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/savage-deviljho",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Savage_Deviljho"
@@ -5724,6 +5762,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 62,
+	  "hp" : 4500,
       "name" : "Khezu",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/khezu",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Khezu"
@@ -5799,6 +5838,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 63,
+	  "hp" : 4500,
       "name" : "Red Khezu",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/red-khezu",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Red_Khezu"
@@ -5905,6 +5945,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 64,
+	  "hp" : 2400,
       "name" : "Basarios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/basarios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Basarios"
@@ -6011,6 +6052,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 65,
+	  "hp" : 2400,
       "name" : "Ruby Basarios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/ruby-basarios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Ruby_Basarios"
@@ -6131,6 +6173,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 66,
+	  "hp" : 4400,
       "name" : "Gravios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/gravios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Gravios"
@@ -6371,6 +6414,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 68,
+	  "hp" : 4600,
       "name" : "Black Gravios",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/black-gravios",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Black_Gravios"
@@ -6457,6 +6501,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 69,
+	  "hp" : 4500,
       "name" : "Rathian",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/rathian",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Rathian"
@@ -6596,6 +6641,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 70,
+	  "hp" : 4200,
       "name" : "Pink Rathian",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/pink-rathian",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Pink_Rathian"
@@ -6702,6 +6748,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 71,
+	  "hp" : 4700,
       "name" : "Gold Rathian",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/gold-rathian",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Gold_Rathian"
@@ -6788,6 +6835,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 72,
+	  "hp" : 4200,
       "name" : "Rathalos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/rathalos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Rathalos"
@@ -6885,6 +6933,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 73,
+	  "hp" : 4300,
       "name" : "Azure Rathalos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/azure-rathalos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Azure_Rathalos"
@@ -6991,6 +7040,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 74,
+	  "hp" : 4900,
       "name" : "Silver Rathalos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/silver-rathalos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Silver_Rathalos"
@@ -7159,6 +7209,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 75,
+	  "hp" : 5000,
       "name" : "Tigrex",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/tigrex",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Tigrex"
@@ -7495,6 +7546,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 77,
+	  "hp" : 4500,
       "name" : "Brute Tigrex",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/brute-tigrex",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Brute_Tigrex"
@@ -7685,6 +7737,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 78,
+	  "hp" : 5000,
       "name" : "Molten Tigrex",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/molten-tigrex",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Molten_Tigrex"
@@ -7782,6 +7835,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 79,
+	  "hp" : 4300,
       "name" : "Diablos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/diablos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Diablos"
@@ -7995,6 +8049,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 81,
+	  "hp" : 4300,
       "name" : "Black Diablos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/black-diablos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Black_Diablos"
@@ -8092,6 +8147,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 82,
+	  "hp" : 4000,
       "name" : "Monoblos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/monoblos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Monoblos"
@@ -8189,6 +8245,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 83,
+	  "hp" : 6000,
       "name" : "White Monoblos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/white-monoblos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/White_Monoblos"
@@ -8591,6 +8648,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 86,
+	  "hp" : 5000,
       "name" : "Gore Magala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/gore-magala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Gore_Magala"
@@ -8781,6 +8839,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 87,
+	  "hp" : 5800,
       "name" : "Chaotic Gore Magala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/chaotic-gore-magala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Chaotic_Gore_Magala"
@@ -8930,6 +8989,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 88,
+	  "hp" : 6000,
       "name" : "Akantor",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/akantor",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Akantor"
@@ -9079,6 +9139,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 89,
+	  "hp" : 7000,
       "name" : "Ukanlos",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/ukanlos",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Ukanlos"
@@ -9300,6 +9361,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 90,
+	  "hp" : 5300,
       "name" : "Zinogre",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/zinogre",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Zinogre"
@@ -9680,6 +9742,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 92,
+	  "hp" : 5100,
       "name" : "Stygian Zinogre",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/stygian-zinogre",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Stygian_Zinogre"
@@ -9782,6 +9845,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 93,
+	  "hp" : 3200,
       "name" : "Kirin",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/kirin",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Kirin"
@@ -9884,6 +9948,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 94,
+	  "hp" : 3200,
       "name" : "Oroshi Kirin",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/oroshi-kirin",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Oroshi_Kirin"
@@ -9990,6 +10055,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 95,
+	  "hp" : 5500,
       "name" : "Shagaru Magala",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/shagaru-magala",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Shagaru_Magala"
@@ -10085,6 +10151,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
             "name" : "default"
           } ],
       "id" : 96,
+	  "hp" : 16000,
       "name" : "Dah'ren Mohran",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/dahren-mohran",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Dah'ren_Mohran"
@@ -10275,6 +10342,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 97,
+	  "hp" : 4200,
       "name" : "Kushala Daora",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/kushala-daora",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Kushala_Daora"
@@ -10465,6 +10533,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 98,
+	  "hp" : 4000,
       "name" : "Rusted Kushala Daora",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/rusted-kushala-daora",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Rusted_Kushala_Daora"
@@ -10633,6 +10702,7 @@ var monsterList = { "1" : { "damage_default" : [ { "damage" : [ 80,
           }
         ],
       "id" : 99,
+	  "hp" : 5300,
       "name" : "Teostra",
       "url_kiranico" : "http://kiranico.com/en/mh4u/monster/teostra",
       "url_wikia" : "http://monsterhunter.wikia.com/wiki/Teostra"

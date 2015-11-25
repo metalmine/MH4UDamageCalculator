@@ -18,6 +18,8 @@
 <script type="text/javascript" src="data/monster_list.js"></script>
 <script type="text/javascript" src="data/monsterSelectList.js"></script>
 
+<!-- Calculator -->
+<script type="text/javascript" src="calculate.js"></script>
 </head>
 <body>
 	<div class="bg">
@@ -71,7 +73,7 @@
 								<option value="c2">Challenger +2</option>
 								<option value="pf">Peak Performance</option>
 							</select>
-							<input class="attackBox" type="text" name="attackValue" value="300"><input class="attackBox" type="text" name="eleValue" value="300"></br>
+							<input class="attackBox" type="text" id="attackValue" value="300"><input class="attackBox" type="text" id="eleValue" value="300"></br>
 							<select id="hunting">
 								<option value="au0">No Hunting Song</option>
 								<option value="au10">Attack Up (S) Song</option>
@@ -118,10 +120,10 @@
 				
 				
 				<div class="selectionPop monPop">
-					<div id="m00" class="monsterIcon inPop"></div>
 					<div class="row pressA">
 						Pick a Monster and Rank
 					</div>
+					<div id="m00" class="monsterIcon inPop"></div>
 					<div class="monsterPick">
 					</div>
 					<div class="rankPick">
