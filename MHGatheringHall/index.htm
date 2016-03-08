@@ -1,0 +1,124 @@
+<!doctype html>
+<title>Gathering Hall</title>
+<head>
+<!-- StyleSheets-->
+<link rel="stylesheet" type="css" href="base.css">
+<!-- BootSdivap -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</head>
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbare-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				  <a class="navbar-brand navLinks" href="#">MH4U Damage Optimizer</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Other Tools<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						  <li><a class="navLinks" target="_blank"href="#">Athena's ASS</a></li>
+						  <li><a class="navLinks" target="_blank"href="#">Kiranico Database</a></li>
+						  <li><a class="navLinks" target="_blank"href="https://www.reddit.com/r/MonsterHunter/comments/2vaxmt/monster_hunter_4_ultimate_resource_thread/">Reddit</a></li>
+						</ul>
+					</li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Weapon Guides<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><small>Blademaster</small></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=sVxO7xOYqS8">Great Sword</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=eBUkSSbcuTk">Long Sword</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=Ufsud-C09Yk">Sword and Shield</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=CQv_qrL7no4">Dual Blades</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=Ufsud-C09Yk">Hammer</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=-d8xCih5LSg">Hunting Horn</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=1bikIBt4hs4">Lance</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=PcOKIvrWUL0">Gunlance</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=ZRv1_mGf2R8">Switch Axe</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=J1LE1D5YSZM">Charge Blade</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=xTqOFUMKaAE">Insect Glaive</a></li>
+							<li><small>Gunner</small></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=3kGgyfwObSg">Light Bowgun</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=EaA4BynOTU8">Heavy Bowgun</a></li>
+							<li><a target="_blank"href="https://www.youtube.com/watch?v=mK2yl5o49cg">Bow</a></li>
+						</ul>
+					  </li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon"></span>About Us</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="caintainer-fluid panel" id="paper">
+			<div class="currentConfig col-*-6">
+				<table border="1" id="armorConfig">
+					<caption>Armor Configuration</caption>
+					<tr class="row" id="armorR1">
+						<td class="armor col-*-1" id="head">head</td>						<td class="col-*-1"/>
+						<td class="armor col-*-1" id="charm">Charm</td>
+					</tr>
+					<tr class="row" id="armorR2">
+						<td class="armor col-*-1" id="arm">Arm</td>
+						<td class="armor col-*-1" id="chest">Chest</td>
+						<td class="armor col-*-1" id="arm">Arm</td>
+					</tr>
+					<tr class="row" id="armorR3">
+						<td class="blank col-*-1"/>
+						<td class="armor col-*-1" id="bottom">skirt</td>
+						<td class="blank col-*-1"/>
+					</tr>
+					<tr class="row" id="armorR4">
+						<td class="blank col-*-1"/>
+						<td class="armor col-*-1" id="feet">legs</td>
+						<td class="blank col-*-1"/>
+					</tr>
+				</table>
+			</div>
+			<div class="currentStats col-*-6">
+					<caption>Current Stats</caption>
+					<ul class="nav nav-tabs">
+					  <li class="active"><a data-toggle="tab" href="#home">Skills</a></li>
+					  <li><a data-toggle="tab" href="#menu1">Buffs</a></li>
+					  <li><a data-toggle="tab" href="#menu2">Monsters</a></li>
+					</ul>
+
+					<div class="tab-content">
+					  <div id="home" class="tab-pane fade in active">
+						<h3>Armor Skills</h3>
+						<p>Some content.</p>
+					  </div>
+					  <div id="menu1" class="tab-pane fade">
+						<h3>Temporary Buffs</h3>
+						<p>Some content in menu 1.</p>
+					  </div>
+					  <div id="menu2" class="tab-pane fade">
+						<h3>Monster</h3>
+						<p>Some content in menu 2.</p>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="navTab" id="navIcons">
+				<div class="navMenu" id="navList">
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</div
+</body>
+</html> 

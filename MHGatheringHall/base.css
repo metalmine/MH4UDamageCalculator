@@ -1,0 +1,38 @@
+.navbar{
+	text-align:center;
+	position:relative;
+	background-color:#0288D1;
+	box-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+}
+#paper{
+	background-color:#FFEB3B;
+	margin:auto;
+	width:95%;
+	height:600px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+#armorConfig{
+	margin:auto;
+	width:200px;
+}
+.currentStats{
+	margin-top:5px;
+	float:right;
+	height:90%;
+	width:500px;
+	background-color:#FFF9C4;
+	text-align:center;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+body{
+	background-color:#FFF59D;
+}
+a.navLinks{
+	color:white;
+}
+li.navLinks{
+	color:#E1F5FE;
+}
+ul.dropdown-menu{
+	text-align:center;
+}

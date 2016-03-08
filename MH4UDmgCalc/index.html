@@ -17,7 +17,6 @@
 <!-- Monster Data -->
 <script type="text/javascript" src="data/monster_list.js"></script>
 <script type="text/javascript" src="data/monsterSelectList.js"></script>
-
 <!-- Calculator -->
 <script type="text/javascript" src="calculate.js"></script>
 </head>
@@ -27,11 +26,13 @@
 			<div class="calculate">A</div>
 			<div class="wepGuideLink"><a href="wepGuide.html" class="whiteLink">Guide</a></div>
 			<div class="aboutUsLink"><a href="About_us.html" class="whiteLink">About Us</a></div>
+			<div Class="homeLink"><a href="Home.html"></a></div>
 			<div class="topScreen">
 				<div class="topPop">
 					Press "A" To Calculate</br>
-					Average Damage/hit:</br>
-					Most Effective Element:
+					-1Hit / Sleep.(no bombs)</br>
+					100% Affinity: divide attacks by .75</br>
+					Fortify Skill(2death): divide attacks by .65</br>
 				</div>
 			</div>
 			<div class="bottomScreen">
@@ -66,7 +67,6 @@
 					</div>
 				</div>
 				
-				
 				<div class="selectionPop buffPop">
 					<div class="row pressA">
 						<div class="armskillPick">
@@ -76,7 +76,7 @@
 								<option value="c2">Challenger +2</option>
 								<option value="pf">Peak Performance</option>
 							</select>
-							<input class="attackBox" type="text" id="attackValue" value="300"><input class="attackBox" type="text" id="eleValue" value="300"></br>
+							<input class="attackBox" type="text" id="attackValue" value="Weapon Attack Value"><input class="attackBox" type="text" id="eleValue" value="Elemental Value"></br>
 							<select id="hunting">
 								<option value="au0">No Hunting Song</option>
 								<option value="au10">Attack Up (S) Song</option>
@@ -97,7 +97,7 @@
 								<option value="ice">Ice</option>
 								<option value="dragon">Dragon</option>
 							</select></br>
-							<input type="checkbox" id="weak">Weakness Exploit</input></br>
+							<input type="checkbox" id="weak">Weakness Exploit</input>
 							<select id="attackup">
 								<Option value="au0">No Attack Up</option>
 								<option value="au10">Attack Up (S)</option>
@@ -107,7 +107,7 @@
 							</select></br>
 							<input type="checkbox" id="sharp">Sharpness +1</input>
 							<select id="sharpPick">
-								<Option selected="true" disabled="disabled">What Sharpness are you at?</option>
+								<Option selected="true" disabled="disabled">Current Sharpness</option>
 								<option value="yellow">Yellow</option>
 								<option value="green">Green</option>
 								<option value="blue">Blue</option>
@@ -125,7 +125,7 @@
 				<div class="selectionPop monPop">
 					<div class="row pressA">
 						Pick a Monster and Rank
-					</div>
+					</div></br>
 					<div id="m00" class="monsterIcon inPop"></div>
 					<div class="monsterPick">
 					</div>
