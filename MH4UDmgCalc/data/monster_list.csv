@@ -1,0 +1,105 @@
+ID,Monster_Name,Base_Health
+1,Felyne,40
+2,Melynx,40
+3,Altaroth,45
+4,Konchu,100
+5,Bnahabra,30
+6,Delex,60
+7,Cephalos,240
+8,Kelbi,55
+9,Aptonoth,75
+10,Rhenoplos,120
+11,Slagtoth,160
+12,Popo,105
+13,Apceros,200
+14,Gargwa,65
+15,Jaggi,90
+16,Jaggia,120
+17,Velociprey,100
+18,Genprey,120
+19,Ioprey,150
+20,Hermitaur,120
+21,Conga,190
+22,Zamite,165
+23,Remobra,190
+24,Seltas,2000
+25,Desert Seltas,2500
+26,Seltas Queen,5200
+27,Desert Seltas Queen,5500
+28,Nerscylla,3900
+29,Shrouded Nerscylla,3900
+30,Cephadrome,3600
+31,Great Jaggi,2600
+32,Velocidrome,2000
+33,Gendrome,2500
+34,Iodrome,3500
+35,Yian Kut-Ku,3800
+36,Blue Yian Kut-Ku,4000
+37,Gypceros,3900
+38,Purple Gypceros,3900
+39,Yian Garuga,5200
+40,Daimyo Hermitaur,3300
+41,Plum Daimyo Hermitaur,3500
+42,Kecha Wacha,3800
+43,Ash Kecha Wacha,3500
+44,Lagombi,3600
+45,Congalala,4600
+46,Emerald Congalala,4100
+47,Rajang,4500
+48,Apex Rajang,4800
+49,Furious Rajang,4800
+50,Tetsucabra,4000
+51,Berserk Tetsucabra,4200
+52,Zamtrios,5200
+53,Tigerstripe Zamtrios,5000
+54,Najarala,4350
+55,Tidal Najarala,4850
+56,Apex Tidal Najarala,4850
+57,Brachydios,4600
+58,Rajging Brachydios,5500
+59,Deviljho,6600
+60,Apex Deviljho,6600
+61,Savage Deviljho,6000
+62,Khezu,4500
+63,Red Khezu,4500
+64,Basarios,2400
+65,Ruby Basarios,2400
+66,Gravios,4400
+67,Apex Gravios,4800
+68,Black Gravios,4600
+69,Rathian,4500
+70,Pink Rathian,4200
+71,Gold Rathian,4700
+72,Rathalos,4200
+73,Azure Rathalos,4300
+74,Silver Rathalos,4900
+75,Tigrex,5000
+76,Apex Tigrex,4500
+77,Brute Tygrex,4500
+78,Molten Tigrex,5000
+79,Diablos,4300
+80,Apex Diablos,4000
+81,Black Diablos,4300
+82,Monoblos,4000
+83,White Monoblos,6000
+84,Seregios,4200
+85,Apex Seregios,4700
+86,Gore Magala,5000
+87,Chaotic Gore Magala,5800
+88,Akantor,6000
+89,Ukanlos,7000
+90,Zinogre,5300
+91,Apex Zinogre,4300
+92,Stygian Zinogre,5100
+93,Kirin,3200
+94,Oroshi Kirin,3200
+95,Shagaru Magala,5500
+96,Dah'ren Mohan,16000
+97,Kushala Daora,4200
+98,Rusted Kushala Daora,4000
+99,Teostra,5300
+100,Chameleos,6400
+101,Dalamadur,17600
+102,Shah Dalamadur,17600
+103,Gogmazios,18000
+104,Fatalis,9000
